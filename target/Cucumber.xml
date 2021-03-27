@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="3" time="65.867">
+<testcase classname="Customers" name="Add New Customer" time="30.392">
+<system-out><![CDATA[Given Launch chrome browser.................................................passed
+When Open URL "https://admin-demo.nopcommerce.com/login"....................passed
+And Enter email as "admin@yourstore.com" and password as "admin"............passed
+And click  Login btn........................................................passed
+Then view Dashboard.........................................................passed
+When click on cutomers menu.................................................passed
+And click on customers menu item............................................passed
+And click on Add new button.................................................passed
+Then view Add new customer page.............................................passed
+When enter customer informations............................................passed
+And click on save button....................................................passed
+Then verify confirmation message "The new customer has been added successfully.".passed
+When click logout link......................................................passed
+Then page title should be "Your store. Login"...............................passed
+And close browser...........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Customers" name="Search Customer by email" time="18.01">
+<system-out><![CDATA[Given Launch chrome browser.................................................passed
+When Open URL "https://admin-demo.nopcommerce.com/login"....................passed
+And Enter email as "admin@yourstore.com" and password as "admin"............passed
+And click  Login btn........................................................passed
+Then view Dashboard.........................................................passed
+When click on cutomers menu.................................................passed
+And click on customers menu item............................................passed
+When enter customer email...................................................passed
+Then click search btn.......................................................passed
+And validate email add in the search result table...........................passed
+When click logout link......................................................passed
+Then page title should be "Your store. Login"...............................passed
+And close browser...........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Customers" name="Search Customer by firstname and lastname" time="17.239">
+<system-out><![CDATA[Given Launch chrome browser.................................................passed
+When Open URL "https://admin-demo.nopcommerce.com/login"....................passed
+And Enter email as "admin@yourstore.com" and password as "admin"............passed
+And click  Login btn........................................................passed
+Then view Dashboard.........................................................passed
+When click on cutomers menu.................................................passed
+And click on customers menu item............................................passed
+When enter customer firstname "Victoria"....................................passed
+And enter customer lastname "Terces"........................................passed
+Then click search btn.......................................................passed
+And validate fname "Victoria" and lname "Terces" in the search result table.passed
+When click logout link......................................................passed
+Then page title should be "Your store. Login"...............................passed
+And close browser...........................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
