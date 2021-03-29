@@ -19,7 +19,7 @@ public class addCustomerPage {
         this.ldriver = driver;
         //This initElements method will create all WebElements
         PageFactory.initElements(driver, this);
-    }
+		}
 		
 		// here we are not using findBy to find the location of webelements in the page.
 		// but we are only storing the xpath of webelements in the variables- 

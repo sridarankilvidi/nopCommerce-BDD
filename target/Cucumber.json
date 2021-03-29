@@ -11,19 +11,19 @@
         "steps": [
           {
             "result": {
-              "duration": 1823000000,
+              "duration": 1945000000,
               "status": "passed"
             },
             "line": 4,
-            "name": "Launch chrome browser",
+            "name": "Launch specific browser",
             "match": {
-              "location": "stepDefinitions.stepDefinitions.launch_chrome_browser()"
+              "location": "stepDefinitions.stepDefinitions.launch_specific_browser()"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 1425000000,
+              "duration": 1460000000,
               "status": "passed"
             },
             "line": 5,
@@ -41,7 +41,7 @@
           },
           {
             "result": {
-              "duration": 242000000,
+              "duration": 232000000,
               "status": "passed"
             },
             "line": 6,
@@ -63,7 +63,7 @@
           },
           {
             "result": {
-              "duration": 5982000000,
+              "duration": 6257000000,
               "status": "passed"
             },
             "line": 7,
@@ -75,7 +75,7 @@
           },
           {
             "result": {
-              "duration": 8000000,
+              "duration": 19000000,
               "status": "passed"
             },
             "line": 8,
@@ -88,8 +88,8 @@
         ]
       },
       {
-        "start_timestamp": "2021-03-27T00:06:53.162Z",
-        "line": 10,
+        "start_timestamp": "2021-03-28T17:38:45.735Z",
+        "line": 11,
         "name": "Add New Customer",
         "description": "",
         "id": "customers;add-new-customer",
@@ -98,10 +98,10 @@
         "steps": [
           {
             "result": {
-              "duration": 73000000,
+              "duration": 103000000,
               "status": "passed"
             },
-            "line": 11,
+            "line": 12,
             "name": "click on cutomers menu",
             "match": {
               "location": "stepDefinitions.stepDefinitions.click_on_cutomers_menu()"
@@ -110,10 +110,10 @@
           },
           {
             "result": {
-              "duration": 808000000,
+              "duration": 909000000,
               "status": "passed"
             },
-            "line": 12,
+            "line": 13,
             "name": "click on customers menu item",
             "match": {
               "location": "stepDefinitions.stepDefinitions.click_on_customers_menu_item()"
@@ -122,10 +122,10 @@
           },
           {
             "result": {
-              "duration": 3731000000,
+              "duration": 4079000000,
               "status": "passed"
             },
-            "line": 13,
+            "line": 14,
             "name": "click on Add new button",
             "match": {
               "location": "stepDefinitions.stepDefinitions.click_on_add_new_button()"
@@ -134,10 +134,10 @@
           },
           {
             "result": {
-              "duration": 13000000,
+              "duration": 11000000,
               "status": "passed"
             },
-            "line": 14,
+            "line": 15,
             "name": "view Add new customer page",
             "match": {
               "location": "stepDefinitions.stepDefinitions.view_add_new_customer_page()"
@@ -146,10 +146,10 @@
           },
           {
             "result": {
-              "duration": 5403000000,
+              "duration": 5350000000,
               "status": "passed"
             },
-            "line": 15,
+            "line": 16,
             "name": "enter customer informations",
             "match": {
               "location": "stepDefinitions.stepDefinitions.enter_customer_informations()"
@@ -158,10 +158,10 @@
           },
           {
             "result": {
-              "duration": 6041000000,
+              "duration": 6174000000,
               "status": "passed"
             },
-            "line": 16,
+            "line": 17,
             "name": "click on save button",
             "match": {
               "location": "stepDefinitions.stepDefinitions.click_on_save_button()"
@@ -170,10 +170,10 @@
           },
           {
             "result": {
-              "duration": 232000000,
+              "duration": 255000000,
               "status": "passed"
             },
-            "line": 17,
+            "line": 18,
             "name": "verify confirmation message \"The new customer has been added successfully.\"",
             "match": {
               "arguments": [
@@ -188,10 +188,10 @@
           },
           {
             "result": {
-              "duration": 3770000000,
+              "duration": 4202000000,
               "status": "passed"
             },
-            "line": 18,
+            "line": 19,
             "name": "click logout link",
             "match": {
               "location": "stepDefinitions.stepDefinitions.click_logout_link()"
@@ -200,10 +200,10 @@
           },
           {
             "result": {
-              "duration": 45000000,
+              "duration": 42000000,
               "status": "passed"
             },
-            "line": 19,
+            "line": 20,
             "name": "page title should be \"Your store. Login\"",
             "match": {
               "arguments": [
@@ -221,12 +221,17 @@
               "duration": 721000000,
               "status": "passed"
             },
-            "line": 20,
+            "line": 21,
             "name": "close browser",
             "match": {
               "location": "stepDefinitions.stepDefinitions.close_browser()"
             },
             "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@sanity"
           }
         ]
       },
@@ -239,19 +244,19 @@
         "steps": [
           {
             "result": {
-              "duration": 1217000000,
+              "duration": 1191000000,
               "status": "passed"
             },
             "line": 4,
-            "name": "Launch chrome browser",
+            "name": "Launch specific browser",
             "match": {
-              "location": "stepDefinitions.stepDefinitions.launch_chrome_browser()"
+              "location": "stepDefinitions.stepDefinitions.launch_specific_browser()"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 1430000000,
+              "duration": 1588000000,
               "status": "passed"
             },
             "line": 5,
@@ -269,7 +274,7 @@
           },
           {
             "result": {
-              "duration": 240000000,
+              "duration": 202000000,
               "status": "passed"
             },
             "line": 6,
@@ -291,7 +296,7 @@
           },
           {
             "result": {
-              "duration": 6023000000,
+              "duration": 6224000000,
               "status": "passed"
             },
             "line": 7,
@@ -316,8 +321,8 @@
         ]
       },
       {
-        "start_timestamp": "2021-03-27T00:07:23.593Z",
-        "line": 22,
+        "start_timestamp": "2021-03-28T17:39:17.615Z",
+        "line": 24,
         "name": "Search Customer by email",
         "description": "",
         "id": "customers;search-customer-by-email",
@@ -326,10 +331,10 @@
         "steps": [
           {
             "result": {
-              "duration": 73000000,
+              "duration": 81000000,
               "status": "passed"
             },
-            "line": 23,
+            "line": 25,
             "name": "click on cutomers menu",
             "match": {
               "location": "stepDefinitions.stepDefinitions.click_on_cutomers_menu()"
@@ -338,10 +343,10 @@
           },
           {
             "result": {
-              "duration": 840000000,
+              "duration": 1295000000,
               "status": "passed"
             },
-            "line": 24,
+            "line": 26,
             "name": "click on customers menu item",
             "match": {
               "location": "stepDefinitions.stepDefinitions.click_on_customers_menu_item()"
@@ -350,10 +355,10 @@
           },
           {
             "result": {
-              "duration": 169000000,
+              "duration": 113000000,
               "status": "passed"
             },
-            "line": 25,
+            "line": 27,
             "name": "enter customer email",
             "match": {
               "location": "stepDefinitions.stepDefinitions.enter_customer_email()"
@@ -362,10 +367,10 @@
           },
           {
             "result": {
-              "duration": 3075000000,
+              "duration": 3062000000,
               "status": "passed"
             },
-            "line": 26,
+            "line": 28,
             "name": "click search btn",
             "match": {
               "location": "stepDefinitions.stepDefinitions.click_search_btn()"
@@ -374,10 +379,10 @@
           },
           {
             "result": {
-              "duration": 131000000,
+              "duration": 119000000,
               "status": "passed"
             },
-            "line": 27,
+            "line": 29,
             "name": "validate email add in the search result table",
             "match": {
               "location": "stepDefinitions.stepDefinitions.validate_email_add_in_the_search_result_table()"
@@ -386,10 +391,10 @@
           },
           {
             "result": {
-              "duration": 4055000000,
+              "duration": 4210000000,
               "status": "passed"
             },
-            "line": 28,
+            "line": 30,
             "name": "click logout link",
             "match": {
               "location": "stepDefinitions.stepDefinitions.click_logout_link()"
@@ -398,10 +403,10 @@
           },
           {
             "result": {
-              "duration": 42000000,
+              "duration": 37000000,
               "status": "passed"
             },
-            "line": 29,
+            "line": 31,
             "name": "page title should be \"Your store. Login\"",
             "match": {
               "arguments": [
@@ -416,15 +421,20 @@
           },
           {
             "result": {
-              "duration": 704000000,
+              "duration": 715000000,
               "status": "passed"
             },
-            "line": 30,
+            "line": 32,
             "name": "close browser",
             "match": {
               "location": "stepDefinitions.stepDefinitions.close_browser()"
             },
             "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression"
           }
         ]
       },
@@ -437,19 +447,19 @@
         "steps": [
           {
             "result": {
-              "duration": 1159000000,
+              "duration": 1138000000,
               "status": "passed"
             },
             "line": 4,
-            "name": "Launch chrome browser",
+            "name": "Launch specific browser",
             "match": {
-              "location": "stepDefinitions.stepDefinitions.launch_chrome_browser()"
+              "location": "stepDefinitions.stepDefinitions.launch_specific_browser()"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 1597000000,
+              "duration": 1490000000,
               "status": "passed"
             },
             "line": 5,
@@ -467,7 +477,7 @@
           },
           {
             "result": {
-              "duration": 221000000,
+              "duration": 201000000,
               "status": "passed"
             },
             "line": 6,
@@ -489,7 +499,7 @@
           },
           {
             "result": {
-              "duration": 5342000000,
+              "duration": 4785000000,
               "status": "passed"
             },
             "line": 7,
@@ -501,7 +511,7 @@
           },
           {
             "result": {
-              "duration": 4000000,
+              "duration": 14000000,
               "status": "passed"
             },
             "line": 8,
@@ -514,8 +524,8 @@
         ]
       },
       {
-        "start_timestamp": "2021-03-27T00:07:41.620Z",
-        "line": 32,
+        "start_timestamp": "2021-03-28T17:39:36.471Z",
+        "line": 35,
         "name": "Search Customer by firstname and lastname",
         "description": "",
         "id": "customers;search-customer-by-firstname-and-lastname",
@@ -524,10 +534,10 @@
         "steps": [
           {
             "result": {
-              "duration": 74000000,
+              "duration": 168000000,
               "status": "passed"
             },
-            "line": 33,
+            "line": 36,
             "name": "click on cutomers menu",
             "match": {
               "location": "stepDefinitions.stepDefinitions.click_on_cutomers_menu()"
@@ -536,10 +546,10 @@
           },
           {
             "result": {
-              "duration": 854000000,
+              "duration": 930000000,
               "status": "passed"
             },
-            "line": 34,
+            "line": 37,
             "name": "click on customers menu item",
             "match": {
               "location": "stepDefinitions.stepDefinitions.click_on_customers_menu_item()"
@@ -548,10 +558,10 @@
           },
           {
             "result": {
-              "duration": 107000000,
+              "duration": 84000000,
               "status": "passed"
             },
-            "line": 35,
+            "line": 38,
             "name": "enter customer firstname \"Victoria\"",
             "match": {
               "arguments": [
@@ -566,10 +576,10 @@
           },
           {
             "result": {
-              "duration": 69000000,
+              "duration": 82000000,
               "status": "passed"
             },
-            "line": 36,
+            "line": 39,
             "name": "enter customer lastname \"Terces\"",
             "match": {
               "arguments": [
@@ -584,10 +594,10 @@
           },
           {
             "result": {
-              "duration": 3154000000,
+              "duration": 3213000000,
               "status": "passed"
             },
-            "line": 37,
+            "line": 40,
             "name": "click search btn",
             "match": {
               "location": "stepDefinitions.stepDefinitions.click_search_btn()"
@@ -596,10 +606,10 @@
           },
           {
             "result": {
-              "duration": 110000000,
+              "duration": 124000000,
               "status": "passed"
             },
-            "line": 38,
+            "line": 41,
             "name": "validate fname \"Victoria\" and lname \"Terces\" in the search result table",
             "match": {
               "arguments": [
@@ -618,10 +628,10 @@
           },
           {
             "result": {
-              "duration": 3806000000,
+              "duration": 3959000000,
               "status": "passed"
             },
-            "line": 39,
+            "line": 42,
             "name": "click logout link",
             "match": {
               "location": "stepDefinitions.stepDefinitions.click_logout_link()"
@@ -630,10 +640,10 @@
           },
           {
             "result": {
-              "duration": 42000000,
+              "duration": 43000000,
               "status": "passed"
             },
-            "line": 40,
+            "line": 43,
             "name": "page title should be \"Your store. Login\"",
             "match": {
               "arguments": [
@@ -648,15 +658,20 @@
           },
           {
             "result": {
-              "duration": 693000000,
+              "duration": 730000000,
               "status": "passed"
             },
-            "line": 41,
+            "line": 44,
             "name": "close browser",
             "match": {
               "location": "stepDefinitions.stepDefinitions.close_browser()"
             },
             "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression"
           }
         ]
       }
@@ -666,6 +681,576 @@
     "id": "customers",
     "keyword": "Feature",
     "uri": "file:Features/Customers.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-03-28T17:39:53.452Z",
+        "line": 3,
+        "name": "Successful login with valid credentials",
+        "description": "",
+        "id": "nopecommerce-site-login;successful-login-with-valid-credentials",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1103000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Launch specific browser",
+            "match": {
+              "location": "stepDefinitions.stepDefinitions.launch_specific_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1536000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Open URL \"https://admin-demo.nopcommerce.com/login\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://admin-demo.nopcommerce.com/login\"",
+                  "offset": 9
+                }
+              ],
+              "location": "stepDefinitions.stepDefinitions.open_url(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 234000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Enter email as \"admin@yourstore.com\" and password as \"admin\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"admin@yourstore.com\"",
+                  "offset": 15
+                },
+                {
+                  "val": "\"admin\"",
+                  "offset": 53
+                }
+              ],
+              "location": "stepDefinitions.stepDefinitions.enter_email_as_and_password_as(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6205000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "click  Login btn",
+            "match": {
+              "location": "stepDefinitions.stepDefinitions.click_login_btn()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 72000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "verify that title should be \"Dashboard / nopCommerce administration\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Dashboard / nopCommerce administration\"",
+                  "offset": 28
+                }
+              ],
+              "location": "stepDefinitions.stepDefinitions.verify_that_title_should_be(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4214000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "click logout link",
+            "match": {
+              "location": "stepDefinitions.stepDefinitions.click_logout_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 22000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "page title should be \"Your store. Login\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Your store. Login\"",
+                  "offset": 21
+                }
+              ],
+              "location": "stepDefinitions.stepDefinitions.page_title_should_be(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 637000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "close browser",
+            "match": {
+              "location": "stepDefinitions.stepDefinitions.close_browser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@sanity"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-03-28T17:40:07.505Z",
+        "line": 26,
+        "name": "Login Data driven",
+        "description": "",
+        "id": "nopecommerce-site-login;login-data-driven;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1111000000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Launch specific browser",
+            "match": {
+              "location": "stepDefinitions.stepDefinitions.launch_specific_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1260000000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Open URL \"https://admin-demo.nopcommerce.com/login\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://admin-demo.nopcommerce.com/login\"",
+                  "offset": 9
+                }
+              ],
+              "location": "stepDefinitions.stepDefinitions.open_url(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 199000000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Enter email as \"admin@yourstore.com\" and password as \"admin\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"admin@yourstore.com\"",
+                  "offset": 15
+                },
+                {
+                  "val": "\"admin\"",
+                  "offset": 53
+                }
+              ],
+              "location": "stepDefinitions.stepDefinitions.enter_email_as_and_password_as(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4669000000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "click  Login btn",
+            "match": {
+              "location": "stepDefinitions.stepDefinitions.click_login_btn()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 92000000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "verify that title should be \"Dashboard / nopCommerce administration\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Dashboard / nopCommerce administration\"",
+                  "offset": 28
+                }
+              ],
+              "location": "stepDefinitions.stepDefinitions.verify_that_title_should_be(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3902000000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "click logout link",
+            "match": {
+              "location": "stepDefinitions.stepDefinitions.click_logout_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 21000000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "page title should be \"Your store. Login\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Your store. Login\"",
+                  "offset": 21
+                }
+              ],
+              "location": "stepDefinitions.stepDefinitions.page_title_should_be(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 619000000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "close browser",
+            "match": {
+              "location": "stepDefinitions.stepDefinitions.close_browser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-03-28T17:40:19.396Z",
+        "line": 27,
+        "name": "Login Data driven",
+        "description": "",
+        "id": "nopecommerce-site-login;login-data-driven;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1096000000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Launch specific browser",
+            "match": {
+              "location": "stepDefinitions.stepDefinitions.launch_specific_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1244000000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Open URL \"https://admin-demo.nopcommerce.com/login\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://admin-demo.nopcommerce.com/login\"",
+                  "offset": 9
+                }
+              ],
+              "location": "stepDefinitions.stepDefinitions.open_url(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 206000000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Enter email as \"admin@yourstore.com\" and password as \"admin123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"admin@yourstore.com\"",
+                  "offset": 15
+                },
+                {
+                  "val": "\"admin123\"",
+                  "offset": 53
+                }
+              ],
+              "location": "stepDefinitions.stepDefinitions.enter_email_as_and_password_as(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3443000000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "click  Login btn",
+            "match": {
+              "location": "stepDefinitions.stepDefinitions.click_login_btn()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:87)\r\n\tat org.junit.Assert.assertTrue(Assert.java:42)\r\n\tat org.junit.Assert.assertTrue(Assert.java:53)\r\n\tat stepDefinitions.stepDefinitions.verify_that_title_should_be(stepDefinitions.java:69)\r\n\tat ✽.verify that title should be \"Dashboard / nopCommerce administration\"(file:///C:/sridaran/Selenium-java/eclipse-workspace/nopCommerce-BDD/./Features/Login.feature:19)\r\n",
+              "duration": 87000000,
+              "status": "failed"
+            },
+            "line": 19,
+            "name": "verify that title should be \"Dashboard / nopCommerce administration\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Dashboard / nopCommerce administration\"",
+                  "offset": 28
+                }
+              ],
+              "location": "stepDefinitions.stepDefinitions.verify_that_title_should_be(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 20,
+            "name": "click logout link",
+            "match": {
+              "location": "stepDefinitions.stepDefinitions.click_logout_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 21,
+            "name": "page title should be \"Your store. Login\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Your store. Login\"",
+                  "offset": 21
+                }
+              ],
+              "location": "stepDefinitions.stepDefinitions.page_title_should_be(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 22,
+            "name": "close browser",
+            "match": {
+              "location": "stepDefinitions.stepDefinitions.close_browser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-03-28T17:40:25.486Z",
+        "line": 28,
+        "name": "Login Data driven",
+        "description": "",
+        "id": "nopecommerce-site-login;login-data-driven;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1177000000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Launch specific browser",
+            "match": {
+              "location": "stepDefinitions.stepDefinitions.launch_specific_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1206000000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Open URL \"https://admin-demo.nopcommerce.com/login\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://admin-demo.nopcommerce.com/login\"",
+                  "offset": 9
+                }
+              ],
+              "location": "stepDefinitions.stepDefinitions.open_url(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 195000000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Enter email as \"admin@yourstore.com\" and password as \"admin\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"admin@yourstore.com\"",
+                  "offset": 15
+                },
+                {
+                  "val": "\"admin\"",
+                  "offset": 53
+                }
+              ],
+              "location": "stepDefinitions.stepDefinitions.enter_email_as_and_password_as(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4767000000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "click  Login btn",
+            "match": {
+              "location": "stepDefinitions.stepDefinitions.click_login_btn()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 39000000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "verify that title should be \"Dashboard / nopCommerce administration\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Dashboard / nopCommerce administration\"",
+                  "offset": 28
+                }
+              ],
+              "location": "stepDefinitions.stepDefinitions.verify_that_title_should_be(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3899000000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "click logout link",
+            "match": {
+              "location": "stepDefinitions.stepDefinitions.click_logout_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 38000000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "page title should be \"Your store. Login\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Your store. Login\"",
+                  "offset": 21
+                }
+              ],
+              "location": "stepDefinitions.stepDefinitions.page_title_should_be(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 665000000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "close browser",
+            "match": {
+              "location": "stepDefinitions.stepDefinitions.close_browser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression"
+          }
+        ]
+      }
+    ],
+    "name": "nopEcommerce site Login",
+    "description": "",
+    "id": "nopecommerce-site-login",
+    "keyword": "Feature",
+    "uri": "file:Features/Login.feature",
     "tags": []
   }
 ]

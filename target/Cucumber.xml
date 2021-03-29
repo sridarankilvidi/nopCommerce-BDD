@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="3" time="65.867">
-<testcase classname="Customers" name="Add New Customer" time="30.392">
-<system-out><![CDATA[Given Launch chrome browser.................................................passed
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="7" time="111.908">
+<testcase classname="Customers" name="Add New Customer" time="31.853">
+<system-out><![CDATA[Given Launch specific browser...............................................passed
 When Open URL "https://admin-demo.nopcommerce.com/login"....................passed
 And Enter email as "admin@yourstore.com" and password as "admin"............passed
 And click  Login btn........................................................passed
@@ -18,8 +18,8 @@ Then page title should be "Your store. Login"...............................pass
 And close browser...........................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Customers" name="Search Customer by email" time="18.01">
-<system-out><![CDATA[Given Launch chrome browser.................................................passed
+<testcase classname="Customers" name="Search Customer by email" time="18.852">
+<system-out><![CDATA[Given Launch specific browser...............................................passed
 When Open URL "https://admin-demo.nopcommerce.com/login"....................passed
 And Enter email as "admin@yourstore.com" and password as "admin"............passed
 And click  Login btn........................................................passed
@@ -34,8 +34,8 @@ Then page title should be "Your store. Login"...............................pass
 And close browser...........................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Customers" name="Search Customer by firstname and lastname" time="17.239">
-<system-out><![CDATA[Given Launch chrome browser.................................................passed
+<testcase classname="Customers" name="Search Customer by firstname and lastname" time="16.967">
+<system-out><![CDATA[Given Launch specific browser...............................................passed
 When Open URL "https://admin-demo.nopcommerce.com/login"....................passed
 And Enter email as "admin@yourstore.com" and password as "admin"............passed
 And click  Login btn........................................................passed
@@ -46,6 +46,58 @@ When enter customer firstname "Victoria"....................................pass
 And enter customer lastname "Terces"........................................passed
 Then click search btn.......................................................passed
 And validate fname "Victoria" and lname "Terces" in the search result table.passed
+When click logout link......................................................passed
+Then page title should be "Your store. Login"...............................passed
+And close browser...........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="nopEcommerce site Login" name="Successful login with valid credentials" time="14.038">
+<system-out><![CDATA[Given Launch specific browser...............................................passed
+When Open URL "https://admin-demo.nopcommerce.com/login"....................passed
+And Enter email as "admin@yourstore.com" and password as "admin"............passed
+And click  Login btn........................................................passed
+Then verify that title should be "Dashboard / nopCommerce administration"...passed
+When click logout link......................................................passed
+Then page title should be "Your store. Login"...............................passed
+And close browser...........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="nopEcommerce site Login" name="Login Data driven" time="11.879">
+<system-out><![CDATA[Given Launch specific browser...............................................passed
+When Open URL "https://admin-demo.nopcommerce.com/login"....................passed
+And Enter email as "admin@yourstore.com" and password as "admin"............passed
+And click  Login btn........................................................passed
+Then verify that title should be "Dashboard / nopCommerce administration"...passed
+When click logout link......................................................passed
+Then page title should be "Your store. Login"...............................passed
+And close browser...........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="nopEcommerce site Login" name="Login Data driven 2" time="6.085">
+<failure message="" type="java.lang.AssertionError"><![CDATA[Given Launch specific browser...............................................passed
+When Open URL "https://admin-demo.nopcommerce.com/login"....................passed
+And Enter email as "admin@yourstore.com" and password as "admin123".........passed
+And click  Login btn........................................................passed
+Then verify that title should be "Dashboard / nopCommerce administration"...failed
+When click logout link......................................................skipped
+Then page title should be "Your store. Login"...............................skipped
+And close browser...........................................................skipped
+
+StackTrace:
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at stepDefinitions.stepDefinitions.verify_that_title_should_be(stepDefinitions.java:69)
+	at ✽.verify that title should be "Dashboard / nopCommerce administration"(file:///C:/sridaran/Selenium-java/eclipse-workspace/nopCommerce-BDD/./Features/Login.feature:19)
+]]></failure>
+</testcase>
+<testcase classname="nopEcommerce site Login" name="Login Data driven 3" time="11.987">
+<system-out><![CDATA[Given Launch specific browser...............................................passed
+When Open URL "https://admin-demo.nopcommerce.com/login"....................passed
+And Enter email as "admin@yourstore.com" and password as "admin"............passed
+And click  Login btn........................................................passed
+Then verify that title should be "Dashboard / nopCommerce administration"...passed
 When click logout link......................................................passed
 Then page title should be "Your store. Login"...............................passed
 And close browser...........................................................passed

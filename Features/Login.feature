@@ -1,6 +1,7 @@
 Feature: nopEcommerce site Login  
+@sanity 
 Scenario: Successful login with valid credentials  
-	Given Launch chrome browser        
+	Given Launch specific browser        
     When Open URL "https://admin-demo.nopcommerce.com/login"
     And Enter email as "admin@yourstore.com" and password as "admin"
     And click  Login btn
@@ -8,9 +9,10 @@ Scenario: Successful login with valid credentials
     When click logout link
     Then page title should be "Your store. Login"
     And close browser
-   
+  
+  @regression 
    Scenario Outline: Login Data driven  
-	Given Launch chrome browser        
+	Given Launch specific browser        
     When Open URL "https://admin-demo.nopcommerce.com/login"
     And Enter email as "<email>" and password as "<password>"
     And click  Login btn

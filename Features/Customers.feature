@@ -1,12 +1,13 @@
 Feature: Customers
 
 Background:
-	Given Launch chrome browser        
+	Given Launch specific browser        
     When Open URL "https://admin-demo.nopcommerce.com/login"
     And Enter email as "admin@yourstore.com" and password as "admin"
     And click  Login btn
     Then view Dashboard   
-    
+
+@sanity 
 Scenario: Add New Customer   
     When click on cutomers menu
     And click on customers menu item
@@ -18,7 +19,8 @@ Scenario: Add New Customer
     When click logout link
     Then page title should be "Your store. Login"
     And close browser
-    
+ 
+ @regression 
  Scenario: Search Customer by email    
     When click on cutomers menu
     And click on customers menu item
@@ -28,7 +30,8 @@ Scenario: Add New Customer
      When click logout link
     Then page title should be "Your store. Login"
     And close browser
-    
+   
+   @regression
     Scenario: Search Customer by firstname and lastname   
     When click on cutomers menu
     And click on customers menu item
